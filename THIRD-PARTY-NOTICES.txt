@@ -1,0 +1,28 @@
+Darkwire third-party notices
+
+Darkwire includes the third-party software and data below, each under its own license. The license texts are
+installed beside the files they cover, under C:\Program Files\Darkwire.
+
+WireGuard for Windows 1.1.1: Service\Backends\WireGuard\wireguard.exe
+    WireGuard LLC, MIT License. It contains WireGuard LLC's WireGuardNT driver, under WireGuard LLC's Prebuilt
+    Binaries License, and Go code under BSD-style licenses. Licenses: Service\Backends\WireGuard\LICENSE.txt.
+    "WireGuard" and the "WireGuard" logo are registered trademarks of Jason A. Donenfeld.
+
+Wintun 0.14.1: Service\Backends\Router\wintun.dll
+    WireGuard LLC, Prebuilt Binaries License, in wintun-LICENSE.txt beside it. Darkwire uses Wintun only through its
+    published API.
+
+dnscrypt-proxy 2.1.18: Service\Backends\DnsCrypt\dnscrypt-proxy.exe
+    Frank Denis, ISC License: Service\Backends\DnsCrypt\LICENSE.txt.
+
+DB-IP Lite IP geolocation: Service\Data\geoip.dat and Data\geoip-city.dat
+    db-ip.com, Creative Commons Attribution 4.0 International: geoip-NOTICE.txt beside each says how Darkwire
+    converts the data.
+
+GeoNames cities: in Darkwire.dll
+    GeoNames (https://www.geonames.org), Creative Commons Attribution 4.0 International
+    (https://creativecommons.org/licenses/by/4.0/). Darkwire keeps the cities of 15,000 people or more,
+    leaving out districts and historical places.
+
+Natural Earth: in Darkwire.dll
+    Country map data from Natural Earth (https://www.naturalearthdata.com), in the public domain.

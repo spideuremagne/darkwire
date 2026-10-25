@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/native/">
+    <Project Path="native/Darkwire.Core/Darkwire.Core.csproj" />
+    <Project Path="native/Darkwire.Engine/Darkwire.Engine.csproj" />
+    <Project Path="native/Darkwire.Vpn/Darkwire.Vpn.csproj" />
+    <Project Path="native/Darkwire.Vpn.Checks/Darkwire.Vpn.Checks.csproj" />
+    <Project Path="native/Darkwire.Service/Darkwire.Service.csproj" />
+    <Project Path="native/Darkwire.Host/Darkwire.Host.csproj" />
+    <Project Path="native/Darkwire.Checks/Darkwire.Checks.csproj" />
+  </Folder>
+</Solution>

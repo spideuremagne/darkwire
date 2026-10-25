@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><PlatformTarget>x64</PlatformTarget><AssemblyName>Darkwire.Service</AssemblyName></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Darkwire.Core/Darkwire.Core.csproj"/><ProjectReference Include="../Darkwire.Engine/Darkwire.Engine.csproj"/><ProjectReference Include="../Darkwire.Vpn/Darkwire.Vpn.csproj"/></ItemGroup>
+</Project>

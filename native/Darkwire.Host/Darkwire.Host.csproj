@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Darkwire</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon Condition="Exists('Assets/darkwire.ico')">Assets/darkwire.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Darkwire.Core/Darkwire.Core.csproj" />
+    <ProjectReference Include="../Darkwire.Engine/Darkwire.Engine.csproj" />
+    <ProjectReference Include="../Darkwire.Vpn/Darkwire.Vpn.csproj" />
+  </ItemGroup>
+  <ItemGroup><Resource Include="Assets/*.png" /><Resource Include="Assets/*.ico" /></ItemGroup>
+  <ItemGroup><EmbeddedResource Include="Assets/world-countries.json" LogicalName="Darkwire.WorldCountries.json" /><EmbeddedResource Include="Assets/cities15000.tsv.gz" LogicalName="Darkwire.Cities.tsv.gz" /></ItemGroup>
+</Project>

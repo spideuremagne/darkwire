@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><PlatformTarget>x64</PlatformTarget><AllowUnsafeBlocks>true</AllowUnsafeBlocks></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Darkwire.Core/Darkwire.Core.csproj"/></ItemGroup>
+</Project>

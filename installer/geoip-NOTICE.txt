@@ -1,0 +1,11 @@
+IP geolocation by DB-IP (https://db-ip.com)
+
+Darkwire includes the DB-IP Lite "IP to Country", "IP to ASN" and "IP to City" databases, licensed under the
+Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
+
+Darkwire converts DB-IP's CSV releases into its own lookup formats. In geoip.dat (countries and autonomous
+systems), adjacent ranges with the same country are merged and reserved space (ZZ) is treated as unknown; no
+country or AS assignment is changed. In geoip-city.dat (cities), adjacent ranges in the same city are merged,
+each city keeps the position most of its ranges give, IPv6 ranges are kept per /64 network (a /64 takes the city
+of its first address), continents are left out, and reserved space has no city. The Darkwire service checks DB-IP
+for a newer release every week and converts it the same way.
